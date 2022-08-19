@@ -1,4 +1,5 @@
-package src;
+package OLD;
+
 
 public class Numbers {
 
@@ -16,11 +17,18 @@ public class Numbers {
             System.out.println("");
             for(int j=0; j<=5; j++){
                 Result[j] = (int) ((Math.random() * (MAX - MIN)) + MIN);
-                // if(중복이면 다시) 
-            }               
+               
+                if(Result[i] == Result[j]){
+                    i--;
+                    break;
+                }
+             }         
             // sort 
             SelectionSort(); 
-       }    
+       }  
+
+       System.out.println(" ");
+       System.out.println(" ");
        
     }   
 

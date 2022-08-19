@@ -1,3 +1,4 @@
+package OLD;
 
 public class Lotto {
 

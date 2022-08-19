@@ -1,3 +1,4 @@
+package OLD;
 public class Money {
 
     private int MIN_MONEY = 1000;
