@@ -4,8 +4,6 @@ public class Money {
     private int money = 0;
     private int count = 0; 
 
-    Input input = new Input();
-
     public void setCount(int money){
         this.money = money;
     }

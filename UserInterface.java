@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class UserInterface {
 
     Money m = new Money();
@@ -18,9 +16,9 @@ public class UserInterface {
     public void ShowResult(){
         m.setCount(i.InputMoney());
         n.RandomNumbers(m.getCount());
-        System.out.println("");
+        
     }
-
+    
     public void Run(){
         DrawUI();
         ShowResult();

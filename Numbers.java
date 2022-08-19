@@ -1,4 +1,3 @@
-
 public class Numbers {
 
     private int Result[] = new int[6]; 
@@ -9,6 +8,9 @@ public class Numbers {
     public void RandomNumbers(int count){
 
         for(int i=0; i<count; i++){ 
+            if(count < 1 ){
+                System.out.println("UnLess 1,000");
+            }
             System.out.println("");
             System.out.print(i+1 + " 번째 : ");
             for(int j=0; j<=5; j++){
