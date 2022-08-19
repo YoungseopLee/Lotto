@@ -9,8 +9,7 @@ public class Money {
         this.money = money;
     }
 
-    public int getCount(){
-        
+    public int getCount(){  
         return count = money/MIN_MONEY;
     }
 }

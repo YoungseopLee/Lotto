@@ -3,7 +3,7 @@ public class UserInterface {
 
     Money m = new Money();
     Numbers n = new Numbers();
-    Input i = new Input();
+    InputData i = new InputData();
 
     UserInterface(){
         Run();
@@ -15,7 +15,7 @@ public class UserInterface {
     }
 
     public void ShowResult(){
-        m.setCount(i.InputMoney());
+        m.setCount(i.Input());
         n.RandomNumbers(m.getCount());
         
     }
