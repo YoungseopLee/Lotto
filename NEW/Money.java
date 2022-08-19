@@ -8,6 +8,9 @@ public class Money {
     private int count = 0;
 
     public void setCount(int money){
+        
+        System.out.println("");
+
         this.input_money = money;
     }
 

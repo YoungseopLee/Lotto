@@ -12,7 +12,7 @@ public class Numbers {
     public void RandomNumbers(int count){
         
         for(int i=0; i<count; i++){
-            
+
             for(int j=0; j<result.length; j++){
 
                 result[j] = r.nextInt(45)+1;
@@ -27,7 +27,7 @@ public class Numbers {
 
             }
             SelectionSort();
-            System.out.println(Arrays.toString(result));
+            System.out.println("[" + (i+1) + "]회 : " + Arrays.toString(result));
             System.out.println("");
         }
     }
@@ -49,7 +49,4 @@ public class Numbers {
         }
     }
 
-    public void Duplication(){
-
-    }
 }

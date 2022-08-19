@@ -19,10 +19,11 @@ public class Lotto {
         Scanner sc = new Scanner(System.in);
 
         int input = 0;
-        
-        ui.ShowUI();
+
+        ui.ShowUI_INTRO();
         m.setCount(input = sc.nextInt());
         n.RandomNumbers(m.getCount());
+        ui.ShowUI_OUTRO();
 
     }
 
